@@ -68,7 +68,7 @@ namespace MVVMTools
 
         public void RegisterDiaglog<TView, TViewModel>(string viewName)
            where TView : UserControl
-           where TViewModel : BindableBase
+           where TViewModel : DialogBase
         {
             RegisterView<TView, TViewModel>(viewName);
         }
